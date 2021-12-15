@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>degê doces</title>
+    <style>
+        body {
+            background-color: rgb(139, 81, 34);
+            color: white;
+            font: normal 13pt Arial;
+        }
+        h1 {
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindos a degê doces!</h1>
+    <p> Colossenses 3:17</p>
+    <script>
+    
+        /* var n1 = Number.parseFloat(window.prompt('Digite um número: ')) - String convertida pra float
+        var n2 = Number.parseInt(window.prompt('Digite outro número: ')) - String convertida pra int */
+        var n1 = Number(window.prompt('Digite um número: ')) // Float
+        while (n1 == 0){
+            var n1 = Number(window.prompt('Não aceito, digite outro número: '))
+            continue
+       }
+        var n2 = Number(window.prompt('Digite mais um número: ')) //FloaT
+        while (n2 == 0){
+            var n2 = Number(window.prompt('Não aceito, digite outro número: '))
+            continue
+       }
+        var soma = n1 + n2
+        window.alert(`${n1} + ${n2} = ${soma} `)
+
+    </script>
+</body>
+</html>
