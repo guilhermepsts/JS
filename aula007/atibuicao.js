@@ -10,3 +10,4 @@ var e =  6 * 2 / d
 
 var f = b % e + 4 / e
 
+var g = a < 7 ? 1 :2
